@@ -24,9 +24,9 @@ parser.add_argument('--device', type=int, default=0, help="GPU number")
 parser.add_argument('--sbm', type=str, default=None, help="saved best model")
 parser.add_argument('--trp', type=str, default=None, help="test record path")
 parser.add_argument('--ted', type=str, default='data/LTLSATUNSAT-{and-or-not-F-G-X-until}-100-random/[100-200)/test_trace.json', help="test dataset")
-parser.add_argument('--pted', type=str, default='data/LTLSATUNSAT-{and-or-not-F-G-X-until}-100-random/[100-200)/test_nv_1024_trace_prep.json', help="preprocessing test dataset")
+parser.add_argument('--pted', type=str, default='data/LTLSATUNSAT-{and-or-not-F-G-X-until}-100-random/[100-200)/test_trace_prep.json', help="preprocessing test dataset")
 parser.add_argument('--vd', type=str, default='data/LTLSATUNSAT-{and-or-not-F-G-X-until}-100-random/[100-200)/dev_trace.json', help="validation dataset")
-parser.add_argument('--pvd', type=str, default='data/LTLSATUNSAT-{and-or-not-F-G-X-until}-100-random/[100-200)/dev_nv_1024_trace_prep.json', help="preprocessing validation dataset")
+parser.add_argument('--pvd', type=str, default='data/LTLSATUNSAT-{and-or-not-F-G-X-until}-100-random/[100-200)/dev_trace_prep.json', help="preprocessing validation dataset")
 
 parser.add_argument('--bs', type=int, default=1024, help="batch size")
 
